@@ -123,15 +123,9 @@ print()
 #แสดง One-Hot Encoding 
 print("----------------- Result of One-Hot Encoding -----------------")
 print()
-df_enc_BST= pd.get_dummies(
-    df,
-    columns=["Bite_Source_Target"]
-) #แตกcolumn และแปลงค่าเป็น True, False
+df_enc_BST= pd.get_dummies(df, columns=["Bite_Source_Target"]) #แตกcolumn และแปลงค่าเป็น True, False หรือตัวเลข
 print(df_enc_BST)
-df_enc_LS = pd.get_dummies(
-    df,
-    columns=["Local_Swelling"]
-)
+df_enc_LS = pd.get_dummies(df, columns=["Local_Swelling"])
 print(df_enc_LS)
 print()
 
