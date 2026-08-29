@@ -1,1 +1,1 @@
-มีบางไฟล์ที่ไม่สามารถuploadได้เนื่องจากไฟล์ใหญ่เกิน เช่น features.npy, Model_Large.keras, Model_LongTrain.keras , ..
+มีบางไฟล์ที่ไม่สามารถuploadได้เนื่องจากไฟล์ใหญ่เกิน เช่น features.npy, Model_Large.keras, Model_LongTrain.keras , X_test.npy, X_train.npy, ..
