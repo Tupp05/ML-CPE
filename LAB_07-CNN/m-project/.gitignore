@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Dataset
+Planets_Moons_Data/
+
+# Ignore generated files in outputs
+outputs/*
+
+# Keep output folders and image results
+!outputs/**/
+!outputs/**/*.png
+!outputs/**/*.jpg
+!outputs/**/*.jpeg
+
+# Ignore trained models and NumPy arrays
+*.keras
+*.h5
+*.npy
+*.npz
