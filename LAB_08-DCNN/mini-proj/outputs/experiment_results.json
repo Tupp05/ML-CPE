@@ -1,0 +1,22 @@
+[
+    {
+        "Model": "VGG_SMALL_10",
+        "Epochs": 10,
+        "Accuracy": 0.7073170731707317
+    },
+    {
+        "Model": "VGG_SMALL_20",
+        "Epochs": 20,
+        "Accuracy": 0.7682926829268293
+    },
+    {
+        "Model": "VGG16_10",
+        "Epochs": 10,
+        "Accuracy": 0.4969512195121951
+    },
+    {
+        "Model": "VGG16_20",
+        "Epochs": 20,
+        "Accuracy": 0.7926829268292683
+    }
+]

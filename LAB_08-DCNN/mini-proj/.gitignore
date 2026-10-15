@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Ignore dataset
+Planets and Moons/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore large model and NumPy files
+*.keras
+*.h5
+*.npy
+*.npz
