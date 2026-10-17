@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Datasets
+dataset/*
+!dataset/data.yaml
+Dataset_Animal/
+
+# VS Code
+.vscode/
+
+# Keep training outputs
+!runs/
+!runs/**
+
+# Ignore temporary files
+*.tmp

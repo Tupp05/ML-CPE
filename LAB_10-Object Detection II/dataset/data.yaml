@@ -1,0 +1,13 @@
+path: C:\Users\tuppo\OneDrive\เดสก์ท็อป\ML Lab\LAB_10\dataset
+
+train: train/images
+val: val/images
+test: test/images
+
+nc: 4
+
+names:
+  0: buffalo
+  1: elephant
+  2: rhino
+  3: zebra
